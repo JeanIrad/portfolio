@@ -13,6 +13,7 @@ h1 {
 body {
     color: #999;
     background-color: #222;
+    position: relative;
 }
 
 p {
@@ -35,4 +36,15 @@ p:hover{
     height: 10rem;
     font-size: 32px;
     transform: translateY(200px);
+}
+button{
+    display: inline-block;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px brown solid;
+    border-radius: 5px;
+    color: #eee;
+    font-weight: 500;
+    /* position: absolute; */
+    /* transform: translate(250%, 150%); */
 }
