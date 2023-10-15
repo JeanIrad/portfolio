@@ -1,0 +1,38 @@
+div {
+    background-color: #555;
+    padding: 10px 20px;
+    color: #ddd;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    color: #999;
+    background-color: #222;
+}
+
+p {
+    background-color: #9a9a9a;
+    padding: 20px;
+    text-align: justify;
+    max-width: 40rem;
+    color: #222;
+    margin: 1rem auto;
+    box-shadow: 2px 3px 1px rgb(177, 81, 81);
+    border-radius: 10px 25px;
+    transition: all ease-in-out 1s;
+}
+p:hover{
+
+    color: rgb(4, 28, 76);
+    background-color: rgb(134, 134, 49);
+    font-weight: 500;
+    max-width: 52rem;
+    height: 10rem;
+    font-size: 32px;
+    transform: translateY(200px);
+}
