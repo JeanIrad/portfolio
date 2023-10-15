@@ -24,8 +24,19 @@ document.addEventListener("DOMContentLoaded", () => {
       personQoute.innerHTML = ` "${data.qoute}"`;
       personQoute.style.color = color
     });
-
   };
+  window.onload = function(){
+    console.log('hello')
+    let color = colors[Math.floor(Math.random() * (colors.length - 1))];
+    let imgUrl = getQoute().then((data) => {
+      personImage.src = data.photo;
+      personImage.alt = data.name;
+      personName.innerHTML = ` _ ${data.name}`;
+      personQoute.innerHTML = ` "${data.qoute}"`;
+      personQoute.style.color = color 
+    }
+    )
+}
   const urlData = "./persons.json";
   const getQoute = async () => {
     const res = await fetch(urlData);

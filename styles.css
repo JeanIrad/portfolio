@@ -33,9 +33,8 @@ p {
     background-color: rgb(134, 134, 49);
     font-weight: 500;
     max-width: 52rem;
-    /* height: 10rem; */
     font-size: 32px;
-    transform: translateY(50px);
+    transform: translateY(20px);
 }
 button{
     display: inline-block;
@@ -49,7 +48,7 @@ button{
 .quote-container{
     min-width: 72rem;
     display: grid;
-    gap: 2rem;
+    gap: 1rem;
     place-items: center;
 }
 .container{
