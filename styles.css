@@ -27,24 +27,39 @@ p {
     border-radius: 10px 25px;
     transition: all ease-in-out 1s;
 }
-p:hover{
+#test:hover{
 
     color: rgb(4, 28, 76);
     background-color: rgb(134, 134, 49);
     font-weight: 500;
     max-width: 52rem;
-    height: 10rem;
+    /* height: 10rem; */
     font-size: 32px;
-    transform: translateY(200px);
+    transform: translateY(50px);
 }
 button{
     display: inline-block;
     padding: 10px;
-    background-color: transparent;
+    background-color: rgb(41, 65, 41);
     border: 1px brown solid;
     border-radius: 5px;
     color: #eee;
     font-weight: 500;
-    /* position: absolute; */
-    /* transform: translate(250%, 150%); */
+}
+.quote-container{
+    min-width: 72rem;
+    display: grid;
+    gap: 2rem;
+    place-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    background-color: #aaa;
+}
+.container img{
+    height: 100%;
+    max-height: 32rem;
+    border-radius: 10px;
 }
